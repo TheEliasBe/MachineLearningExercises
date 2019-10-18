@@ -6,7 +6,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score
 
 
-iris = pd.read_csv('iris.csv')
+iris = pd.read_csv('datasets\iris.csv')
 training_frac = 0.7 # fraction of data used for training
 
 iris_train = iris.sample(frac=training_frac,random_state=0)
